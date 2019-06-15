@@ -1,0 +1,103 @@
+table.elements{
+    border: 1px solid black;
+    border-spacing: 0;
+    width: 80%;
+    margin: auto;
+}
+.elements a,{
+    color: blue;
+}
+.elements a.active, .elements a:hover{
+    background-color: inherit;
+    color: blue;
+    text-decoration: underline
+}
+.elements a.visited{
+    color: red;
+}
+
+table.elements th{
+    border-collapse: collapse;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+table.elements th:first-child{
+    width: 15%;
+}
+table.elements th:nth-child(2){
+    width: 55%%;
+}
+table.elements th:nth-child(3){
+    width: 8em;
+}
+table.elements th:nth-child(4){
+    width: 8em;
+}
+
+/* table.elements tr{
+    vertical-align: top
+} */
+table.elements tr:nth-child(even){
+    background: lightgrey;
+}
+
+table.elements td{
+    border-right: 1px dotted black;
+    text-align: left;
+    padding: .6em;
+    font-weight: 600;
+}
+
+table.client{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background: floralwhite;
+    color: rgb(0, 0, 150);
+    line-height: 1em;
+    margin-left: 5em;
+}
+
+table.client th{    
+    border: 1px solid rgb(0,0,200);
+    padding: .5em;
+    text-align: left;
+    width: 30em;
+}
+
+tr{
+    border: 1px solid rgb(0,0,200);
+    padding: .5em;
+    text-align: left;
+}
+
+table.client td{
+    width: 37em;
+    padding: .5em;
+}
+
+table.aia{
+    margin-left: 5em;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background: darkcyan;
+    line-height: 1em;
+    width: 88%;
+}
+
+table.aia tr:nth-child(even){
+    background: lightblue;    
+}
+
+table.aia th{
+    border: 2px solid rgb(0,0,200);
+    padding: .5em;
+    text-align: left;
+    width: 22em;
+}
+
+table.aia td{
+    border: 1px solid rgb(0,0,200);
+    padding: .5em;
+}

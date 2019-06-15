@@ -1,0 +1,97 @@
+/* My WEB120 Portal Website Styles */
+
+html {
+    background: url("../images/brain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    box-sizing: border-box;
+    width:100%;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    font-size: 1.5em;
+}
+h1>a{
+    color: #66b3f3;
+}
+h1>a:visited{
+    color: #66b3f3;
+}
+
+h2{margin: 0 auto;
+    text-align: center;
+    align-content: center;
+    font-size: 1.5em;}
+div.wrapper {
+    margin: 0 auto;
+    width:100%;
+    background-color:#fff;
+}
+p{
+    margin:1em;
+}
+.box1{
+    background: rgb(241, 35, 35);
+    color: rgba(229, 250, 255);
+}
+
+.box2{
+    background: rgb(239, 246, 248);
+}
+.logo{
+    color:red;
+}
+.social-media{
+    background: #fff;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+@media screen and (min-width:880px){
+    body{
+        width:80%;
+    }
+    
+}
+@media screen and (max-width:680px){
+    body{
+        width:100%;
+    }
+}
+@media screen and (min-width:1080px){
+    body{
+        width:60%;
+    }
+}
