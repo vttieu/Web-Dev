@@ -1,4 +1,4 @@
-/* My WEB120 Portal Website Styles */
+/* My WEB120 Final Project Styles */
 
 html {
     background: url("../images/brain.jpg");
@@ -47,11 +47,21 @@ p{
 .box2{
     background: rgb(239, 246, 248);
 }
+
 .logo{
     color:red;
 }
 .social-media{
     background: #fff;
+}
+
+.social-media > .fa{
+    padding: 10px;
+    font-size: 25px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
 }
 
 .fa-facebook {
