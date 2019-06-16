@@ -19,8 +19,8 @@
 
 #EDIT THE FOLLOWING:
 $toAddress = "vttieu1995@gmail.com";  //place your/your client's email address here
-$toName = "Me For now"; //place your client's name here
-$website = "CLIENT WEBSITE NAME HERE";  //place NAME of your client's website here
+$toName = "SCC SACNAS"; //place your client's name here
+$website = "SCC SACNAS";  //place NAME of your client's website here
 #--------------END CONFIG AREA ------------------------#
 $sendEmail = TRUE; //if true, will send an email, otherwise just show user data.
 $dateFeedback = true; //if true will show date/time with reCAPTCHA error - style a div with class of dateFeedback
@@ -73,16 +73,16 @@ if ($response != null && $response->success)
 			How Did You Hear About Us?:<br />
 			<select name="How_Did_You_Hear_About_Us?" required="required" title="How You Heard is required" tabindex="30">
 				<option value="">Choose How You Heard</option>
-				<option value="Phone">Phone</option>
+				<option value="Phone">Our Members</option>
 				<option value="Web">Web</option>
-				<option value="Magazine">Magazine</option>
-				<option value="A Friend">A Friend</option>
+				<option value="Magazine">A Friend</option>
+				<option value="A Friend">On Campus</option>
 				<option value="Other">Other</option>
 			</select>
 		</label>
 	</div>
 	
-	<div>	
+<!--	<div>	
 		<fieldset>
 			<legend>What Services Are You Interested In?</legend>
 			<input type="checkbox" name="Interested_In[]" value="New Website" tabindex="40" /> New Website <br />
@@ -92,7 +92,7 @@ if ($response != null && $response->success)
 			<input type="checkbox" name="Interested_In[]" value="Other" /> Other <br />
 		</fieldset>
 	</div>
-	
+//-->
 		<div>	
 		<fieldset>
 			<legend>Would you like to join our mailing list?</legend>
